@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Image Gallery</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="image_gallery.css">
+</head>
+
+<body>
+	<div class="p-5 bg-primary text-white text-center">
+		<h1>5 Most Influential Game Systems</h1>
+	  </div>
+
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="https://aalcala87.github.io/">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="https://aalcala87.github.io/game_genres/">Popular Video Game Genres</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+	<main>
+		<ul id="image_list">
+			<li><a href="images/Magnavox_Odyssey.jpg" title="Magnavox Odyssey (1972)">Magnavox Odyssey</a></li>
+			<li><a href="images/atari_2600.jpg" title="Atari 2600 (1977)">Atari 2600</a></li>
+			<li><a href="images/nes.jpg" title="Nintendo Entertainment System (1986)">NES</a></li>
+			<li><a href="images/ps1.jpg" title="Playstation 1 (1994)">PS1</a></li>
+			<li><a href="images/Xbox_Series.jpg" title="Xbox Series X (2020)">Xbox Series X</a></li>
+		</ul>
+		<h2 id="caption">Game Systems in History</h2>
+		<p id="gallery">
+			<img src="images/systems.jpg" alt="Top 5 Influential Game Systems" id="image">
+		</p>
+	</main>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+   	<script src="image_gallery.js"></script>
+</body>
+</html>
